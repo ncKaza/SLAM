@@ -11,7 +11,7 @@ public class First {
         LocalDate maintenant = LocalDate.now();
         LocalDate dateNaissance = LocalDate.of(1973, 5, 22);
 
-        System.out.println("Bonjour " + prenom + ", tu as "+ age + "ans, ta note au controle est de "+ note +", tu es né le : "+ dateNaissance );
+        System.out.println("Bonjour " + prenom + ", tu as "+ age + "ans, ta note au controle est de "+ note);
 
 
         System.out.println("Veuillez corriger les informations en cas d'erreur.");
@@ -26,8 +26,8 @@ public class First {
         sexe = sc.next().charAt(0);
         // vider le buffet avant de lire une ligne
         sc.nextLine();
-        System.out.print("Quelle est ta date de naissance (format jj/mm/aaaa) : ");
-        String date = sc.nextLine();
+        System.out.println("Voici la version corrigée : " );
+        System.out.println("Bonjour " + prenom + ", tu as "+ age + "ans, ta note au controle est de "+ note);
 
     }
 }
