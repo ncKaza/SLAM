@@ -233,9 +233,9 @@ moy_arrondi = round(moyenne, 2)
 print(f"La moyenne des notes est : {moy_arrondi}")
 """
 def afficher_bonjour(prenom, age):
-    print("Bonjour ")
+    print(f"Bonjour {prenom}, tu as {age} ans.")
 
 def renvoyer_age_majorite(age):
     age = 18
-    return ag
+    return age
 #Prog principale
